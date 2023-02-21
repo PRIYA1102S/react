@@ -1,0 +1,88 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+head {
+    display: none;
+}
+body {
+    scroll-behavior: smooth;
+    display: block;
+}
+.navbar {
+    width: 100%;
+    margin: 10px 0px;
+}
+.navbar>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding: 10px 50px;
+    border-radius: 50px;
+    background-color: #05242a;
+}
+.navbar>div>.logo {
+    width: 180px;
+}
+.navbar>div>.logo>img {
+    width: 100%;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.navlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul {
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.navlist>li{
+    list-style: none;
+    margin: 0 25px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.navlink {
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.active__navlink {
+    padding: 20px 50px;
+    background-image: url(/public/download.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.nav-item a{
+    color: #fff!important;
+    font-weight: bold;
+}
+.nav-item{
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+
+}
+style{
+    display: none;
+}
+.navbar a.icon{
+    background-color: #05242a;
+    color: gainsboro;
+}
+
